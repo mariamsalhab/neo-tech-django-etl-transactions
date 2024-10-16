@@ -1,0 +1,6 @@
+client_id,name,email,date_of_birth,country,account_balance
+1,John Doe,john@example.com,1985-02-15,USA,10000.5
+2,Jane Smith,jane@example.com,1990-06-30,UK,5000.75
+3,Sam Brown,sam@example.com,1978-11-05,Canada,12000.0
+4,Emily White,emily@example.com,1988-03-22,Germany,8500.6
+5,Michael Black,michael@example.com,1992-08-10,Australia,4500.3
