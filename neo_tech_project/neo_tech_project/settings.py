@@ -91,11 +91,11 @@ import os
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'neo_django_db',
-        'USER': 'postgres',
-        'PASSWORD': 'Mariamsalhab88liu',
-        'HOST': 'db',  # Service name defined in Docker Compose
-        'PORT': '5432',
+        'NAME': os.getenv('POSTGRES_DB'),
+        'USER': os.getenv('POSTGRES_USER'),
+        'PASSWORD': os.getenv('POSTGRES_PASSWORD'),
+        'HOST': os.getenv('POSTGRES_HOST', 'db'), 
+        'PORT': os.getenv('POSTGRES_PORT', '5432'),
     }
 }
 
