@@ -96,3 +96,8 @@ Celery Integration: Use Celery for background ETL processing.
 Batch Inserts: Enhance ETL process efficiency by using batch inserts.
 License
 This project is licensed under the MIT License. See the LICENSE file for more details.
+Future Improvements
+Celery Integration: Use Celery for background ETL processing.
+Batch Inserts: Enhance ETL process efficiency by using batch inserts.
+License
+This project is licensed under the MIT License. See the LICENSE file for more details.
